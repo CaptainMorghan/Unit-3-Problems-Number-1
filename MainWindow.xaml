@@ -1,0 +1,26 @@
+﻿<Window x:Class="Unit_Three_problems._1_Take_Info_from_internet_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Unit_Three_problems._1_Take_Info_from_internet_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <RadioButton x:Name="rbJanuary" Content="JanuarySales" />
+        <RadioButton x:Name="rbFebuary" Content="FebuarySales" />
+        <RadioButton x:Name="rbMarch" Content="MarchSales" />
+        <RadioButton x:Name="rbApril" Content="AprilSales" />
+        <RadioButton x:Name="rbMay" Content="MaySales" />
+        <RadioButton x:Name="June" Content="JuneSales" />
+        <RadioButton x:Name="rbJuly" Content="JulySales" />
+        <RadioButton x:Name="rbAugest" Content="AugestSales" />
+        <RadioButton x:Name="rbSeptember" Content="SeptemberSales" />
+        <RadioButton x:Name="rbOctober" Content="OctoberSales" />
+        <RadioButton x:Name="rbNovember" Content="NovemberSales" />
+        <RadioButton x:Name="rbDecember" Content="DecemberSales" />
+        <TextBox     x:Name="txtInput" />
+        <Button      x:Name="btnClick" Click="BtnClick_Click" Content="Click" />
+        <Label       x:Name="lblOutput" Content="" />
+    </StackPanel>
+</Window>
